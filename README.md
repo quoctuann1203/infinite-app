@@ -48,3 +48,35 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+🔧 Technologies Used
+
+- Expo Router for navigation.
+- React Query for API calls & caching.
+- AsyncStorage for local persistence.
+- Lodash Debounce for optimized search.
+- FlatList with onEndReached for infinite scrolling.
+
+🛠 Project Structure
+/infinite-app
+├── /components # Reusable UI components (ProductList, SearchBar, etc.)
+├── /context # Context API for managing favorites
+├── /hooks # Custom hooks (network status, API fetching, etc.)
+├── /screens # Main screens (Home, Favorites, etc.)
+├── /assets # Images and icons
+├── App.tsx # Entry point of the app
+├── README.md # Project documentation
+├── package.json # Dependencies
+
+🚀 Approach & Optimizations
+
+✅ State Management
+
+- useState & useEffect for local component state.
+- Context API to manage and persist favorite products.
+  ✅ API Performance
+- Debounce prevents excessive API calls when searching.
+- Pagination & Caching improve performance.
+  ✅ Offline & Error Handling
+- useNetInfo to detect connectivity status.
+- Retry button when an API request fails.
