@@ -63,9 +63,13 @@ Join our community of developers creating universal apps.
 
 - useState & useEffect for local component state.
 - Context API to manage and persist favorite products.
+
   ✅ API Performance
+
 - Debounce prevents excessive API calls when searching.
 - Pagination & Caching improve performance.
+
   ✅ Offline & Error Handling
+
 - useNetInfo to detect connectivity status.
 - Retry button when an API request fails.
