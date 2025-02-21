@@ -57,17 +57,6 @@ Join our community of developers creating universal apps.
 - Lodash Debounce for optimized search.
 - FlatList with onEndReached for infinite scrolling.
 
-🛠 Project Structure
-/infinite-app
-├── /components # Reusable UI components (ProductList, SearchBar, etc.)
-├── /context # Context API for managing favorites
-├── /hooks # Custom hooks (network status, API fetching, etc.)
-├── /screens # Main screens (Home, Favorites, etc.)
-├── /assets # Images and icons
-├── App.tsx # Entry point of the app
-├── README.md # Project documentation
-├── package.json # Dependencies
-
 🚀 Approach & Optimizations
 
 ✅ State Management
